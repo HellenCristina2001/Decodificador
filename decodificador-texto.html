@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<hmtl lang="pt-br">
+     
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Decodificador de Texto</title>
+
+		<link rel= "stylesheet" href="reset.css">
+		<link rel= "stylesheet"	href="style.css">
+		<link rel= "stylesheet"	href="script.js">
+
+
+		
+	</head>
+
+	<body>
+
+
+		<main class="main-container">
+		<header class="foto">
+
+			<img src="logo.jpg" class="logo" alt="logo-alura">
+
+		</header>
+
+
+			<div class="container-input">
+				<div class="input">
+
+					<textarea id="input-texto" placeholder=" Digite seu texto" ></textarea>
+					<p>ATENÇÃO: Apenas letras minúsculas,não utilizar acento e caracteres .</p>
+
+			
+			</div> 
+
+
+			<div id="output">
+				<img src="high.png" alt="imagem representa a busca do texto">
+				<h2> Sua mensagem aparecerá aqui!!</h2>
+				<span> Digite um texto que você deseja criptografar ou descriptografar. </span>
+					
+			</div>	
+		</div>
+
+			<div class="button">
+
+				<div class="container-bnt">
+
+				<button onclick="criptografar()" class="btn-criptografar"> Criptografar </button>
+				<button onclick="descriptografar()" class="btn-descriptografar"> Descriptografar </button>
+ 
+			</div>
+
+		</div>
+		</main>
+
+
+
+
+		<footer class="rodape">
+		
+			<div class="icons">
+
+					<a href="https://www.linkedin.com/in/hellen-rinco-83a30b178/" ><ion-icon name="logo-linkedin" class="botao"></ion-icon></a>
+					<a href="https://github.com/HellenCristina2001"><ion-icon name="logo-github" class="botao"></ion-icon></a>
+			 		<h3 class="autora">Desenvolvido por: Hellen Cristina em: 2023</h3>
+
+				</div>
+
+
+
+			 </div>
+		</footer>
+
+		<script src="script.js"> </script>
+		<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+		</body>
+	</html>
